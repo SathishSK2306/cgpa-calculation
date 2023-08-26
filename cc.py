@@ -59,7 +59,7 @@ with lay2:
         st.write("Machine Learning Laboratory")
         st.write("Networks Laboratory")
         st.write("Mini Project")
-        st.write(" # result")
+        st.write(" # your GPA is:")
 
 
     with col2:
