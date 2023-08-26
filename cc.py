@@ -28,12 +28,12 @@ def gradeValue(grade):
     if grade == 'RA':
         return 0
 
-
 st.set_page_config(layout='wide')
-
+lay0 = st.write("# GPA for VI-Semester")
 lay1, lay2 = st.columns([1, 1])
 
 with lay1:
+    
     s1 = st.selectbox('Edge Computing', gradeList)
     s2 = st.selectbox('Java Script', gradeList)
     s3 = st.selectbox('Wireless Communication', gradeList)
